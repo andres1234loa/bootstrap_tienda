@@ -4,32 +4,169 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="actual/css/bootstrap.min.css">
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="actual/css/bootstrap.min.css">  
     <script src="jquery.js"></script>
+    
 </head>
 <body>
-    <!-- nav -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse " id="navbarNav">
-          <ul class="navbar-nav nav-pills">
-            <li class="nav-item">
-              <a class="nav-link text-white" href="./index.html">principal <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item ">
-              <a class="nav-link text-white active" href="./pantalones.html">pantalones</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white" href="#">lo más vendido</a>
-            </li>
-          </ul>
+<!-- encabezado -->
+<div class="container-fluid">
+    <div class="d-flex justify-content-between pt-5">
+        <div class=""><img src="iconos/buscar.ico"></div>
+        <div class=""><img src="imagenes/marca.png"></div>
+        <div class="row">
+            <!-- el efecto hace de mas pequeño al mas grande  -->
+            <div class="hidden-xs hidden-sm hidden-md mr-3"><img src="iconos/humano.ico"></div>
+            <div class="mr-5"><img src="iconos/bolsa.ico"></div>
         </div>
-    </nav>
-    <!-- nav -->
-    <img src="https://cdn2.melodijolola.com/media/files/styles/nota_imagen/public/field/image/untitledj.jpg">
-    <script src="actual/js/bootstrap.min.js"></script>
+    </div>
+</div>
+<!-- nav -->
+<nav class="navbar navbar-expand-lg navbar-light bg-dark mt-3 w-100">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse " id="navbarNav">
+        <ul class="navbar-nav nav-pills">
+        <li class="nav-item">
+            <a class="nav-link text-white" href="./index.html">principal <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link text-white active" href="./pantalones.html">pantalones</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link text-white" href="./masVendi.html">lo más vendido</a>
+        </li>
+        </ul>
+    </div>
+</nav>
+<!-- fotos -->
+<div class="container-fluid">
+    <div class="row mt-5">
+        <div class="col-xs-12 col-sm-12 col-md-4 pantalones-container">
+            <img height="450" class="w-100" src="https://i.pinimg.com/474x/0d/c7/83/0dc783af4232a3cff856b994f1526e87.jpg">
+            <div class="pantalones-container-item__container">
+                <div>
+                    <h3 class="text-center">Nombre</h3>
+                    <h3 class="text-center"><del>7000</del> 4000</h3>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-4 pantalones-container">
+            <img height="450" class="w-100" src="https://images-na.ssl-images-amazon.com/images/I/51LloYb85uL._AC_UX385_.jpg">
+            <div class="d-flex justify-content-center pantalones-container-item__container">
+                <div>
+                    <h3>nombre</h3>
+                    <h3><del>1000</del> 7000</h3>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-4 pantalones-container">
+            <img height="450" class="w-100" src="https://ae01.alicdn.com/kf/H9117f42b07a84d259e9921c1f9196c37l/Novedad-Hip-Hop-para-chicos-pantalones-har-n-de-dise-o-de-cintura-el-stica-con.jpg">
+            <div class="d-flex justify-content-center pantalones-container-item__container">
+                <div>
+                    <h3 class="text-center">Nombre</h3>
+                    <h3><del>17000</del> 15000</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row mt-5">
+        <div class="col-xs-12 col-sm-12 col-md-4 segundo">
+            <img class="w-100" height="450" src="https://i.pinimg.com/474x/0d/c7/83/0dc783af4232a3cff856b994f1526e87.jpg">
+                <div class="segundo-item__details">
+                    <div>
+                        <h3 class="text-center">Nombre</h3>
+                        <h3><del>20000</del> 17000</h3>
+                    </div>
+                </div>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-4 segundo">
+            <img class="w-100" height="450" src="https://http2.mlstatic.com/pantalones-hombre-cargo-jogger-cintura-punos-cordon-D_NQ_NP_725602-MLA31478442555_072019-Q.jpg">
+                <div class="segundo-item__details">
+                    <div>
+                        <h3 class="text-center">Nombre</h3>
+                        <h3><del>20000</del> 17000</h3>
+                    </div>
+                </div>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-4 segundo">
+            <img class="w-100"  height="450" src="https://www.dhresource.com/0x0/f2/albu/g8/M00/57/F7/rBVaVFv8zjWAKIOgAAIH3k2oiF8276.jpg/good-streetwear-cargo-pants-women-casual.jpg">
+                <div class="segundo-item__details">
+                    <div>
+                        <h3 class="text-center">Nombre</h3>
+                        <h3><del>20000</del> 17000</h3>
+                    </div>
+                </div>
+        </div>
+    </div>
+    <div class="row mt-5">
+        <div class="col-xs-12 col-sm-12 col-md-4 ">
+            <img class="w-100" height="450" src="https://www.dhresource.com/0x0/f2/albu/g8/M00/57/F7/rBVaVFv8zjWAKIOgAAIH3k2oiF8276.jpg/good-streetwear-cargo-pants-women-casual.jpg">
+                <div class="d-flex justify-content-center">
+                    <div>
+                        <h3 class="text-center">Nombre</h3>
+                        <h3><del>20000</del> 17000</h3>
+                    </div>
+                </div>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-4 ">
+            <img class="w-100" height="450" src="https://d2en3dsyjv1qjf.cloudfront.net/2829-large_default/pantalon-dennis-rosa-para-mujer.jpg">
+                <div class="d-flex justify-content-center">
+                    <div>
+                        <h3 class="text-center">Nombre</h3>
+                        <h3><del>20000</del> 17000</h3>
+                    </div>
+                </div>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-4">
+            <img class="w-100"  height="450" src="https://images-na.ssl-images-amazon.com/images/I/51HQ7kFZzWL._AC_UX385_.jpg">
+                <div class="d-flex justify-content-center">
+                    <div>
+                        <h3 class="text-center">Nombre</h3>
+                        <h3><del>20000</del> 17000</h3>
+                    </div>
+                </div>
+        </div>
+    </div>
+</div>
+ 
+ 
+<div class="container-fluid bg-dark text-white">
+    <div class="row text-white">
+        <div class="col-xs-12 col-sm-12 col-md-4">
+            <p class="hidden-md-down">Contacto</p>
+            <p>Atencion y asesoria</p>
+            <p>lunes a viernes</p>
+            <p>7 AM a 7PM</p>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-4">
+            <p>Direecion</p>
+            <p>no se alma viva</p>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-4">
+            <p>Siganos en redes sociales</p>
+            <div class="d-flex justify-content-lg-start">
+                <img class="mr-4" src="iconos/facebook.ico">
+                <img class="mr-4" src="iconos/instagram.ico">
+                <img class="mr-4" src="iconos/gmail.ico">
+            </div>
+        </div>
+    </div>
+    <div class="d-flex justify-content-center text-white">
+        <div>
+            <p class="text-center">medios de pago</p>
+            <img width="100" src="iconos/paypal.ico">
+            <img width="100" src="iconos/master.ico">
+            <img width="100" src="iconos/visa.ico">
+        </div>
+
+    </div>
+
+</div>
+
+    
+<script src="actual/js/bootstrap.min.js"></script>
 </body>
 </html>

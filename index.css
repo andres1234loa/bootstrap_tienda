@@ -1,3 +1,60 @@
 nav li:hover{
     background:tomato;
 }
+
+.pantalones-container{
+ width: 100%;
+ height: 100%;
+ border-radius: 20px;
+ position: relative;
+}
+.pantalones-container:hover .pantalones-container-item__container:hover{
+    opacity: 1;
+}
+.pantalones-container-item__container
+{
+    align-items:center;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.9) 100%, rgba(0, 0, 0, 0) 100%);
+    bottom: 0;
+    display: flex;
+    font-size: 10px;
+    flex-direction: column;
+    justify-content:center;
+    color: white;
+    left: 0;
+    opacity: 0;
+    transition: 450ms opacity;
+    padding: 10px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.segundo{
+    width:100%;
+    height:100%;
+    border-radius:20px;
+    overflow:hidden;
+    position: relative;
+}
+
+.segundo:hover .segundo-item__details{
+    opacity: 1;
+}
+.segundo-item__details{
+    display: flex;
+    align-items:flex-end;
+    justify-content: flex-end;
+    position: absolute;
+    background:linear-gradient(to right, rgba(0,0,0,0.9)0%, rgba(0,0,0,0) 100%);
+    color: black;
+    opacity: 0;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+
+
+

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .etapa{
+            width: 300px;
+            height: 300px;
+            border-radius: 20px;
+            overflow:hidden;
+            position: relative;
+        }
+        .etapa-item__img{
+            width:300px;
+            height:300px;
+            object-fit: cover;
+        }
+        .etapa:hover .etapa-item__details{
+            opacity: 1;
+        }
+        .etapa-item__details{
+            display:flex;
+            align-items:center;
+            flex-direction: column;
+            background: linear-gradient(to top, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0) 100%);
+            position: absolute;
+            opacity: 0;
+            top: 0;
+            bottom: 0;
+            transition: 700ms opacity;
+            left: 0;
+            right: 0;
+
+        }
+    </style>
+</head>
+<body>
+
+
+      <div class="etapa">
+        <img class=" etapa-item__img" src="https://images.pexels.com/photos/789822/pexels-photo-789822.jpeg?auto=format%2Ccompress&cs=tinysrgb&dpr=2&h=750&w=1260">
+        <div class="etapa-item__details">
+            <p class="etapa-item__details--title">Título descriptivo</p>
+            <p class="etapa-item__details--subtitle">2019 16+ 114 minutos</p>
+        </div>
+      </div>
+
+</body>
+</html>
